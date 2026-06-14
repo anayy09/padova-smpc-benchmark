@@ -162,11 +162,11 @@ Publication figures are in `results/figures/`. The manuscript LaTeX uses `figure
 
 ---
 
-## Citation
+<!-- ## Citation
 
 If you use this code or data, please cite:
 
-> [Citation to be added upon publication]
+> [Citation to be added upon publication] -->
 
 ---
 
