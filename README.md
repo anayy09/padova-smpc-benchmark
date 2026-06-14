@@ -1,9 +1,5 @@
 # Padova SMPC Benchmark
 
-Code, data, and figures for the paper:
-
-**Uncertainty-Aware Stochastic Model Predictive Control for Preclinical Glucose Regulation**
-
 This repository contains the complete benchmark used to evaluate stochastic MPC (SMPC) against deterministic MPC (DMPC) and a PID baseline for closed-loop insulin delivery in a preclinical in-silico setting. The study tests whether explicit uncertainty propagation through chance constraints improves glycemic outcomes when the surrogate model, estimator, prediction horizon, and pump limits are held identical across both controllers.
 
 ---
@@ -176,7 +172,7 @@ If you use this code or data, please cite:
 
 ## License
 
-MIT License. See `LICENSE`.
+GNU General Public License. See `LICENSE`.
 
 ---
 
