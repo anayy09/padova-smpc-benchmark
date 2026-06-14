@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.env
+.venv/
+venv/
+
+# Large binary result files (regenerate with run_experiments.py)
+results/data/*.pkl
+
+# Execution logs
+results/run_full_log*.txt
+
+# Debug and scratch files
+debug_*.py
+debug_*.png
+test_*.py
+*.log
+
+# Editor
+.vscode/
+*.swp
+*.swo
+.DS_Store
