@@ -1,0 +1,1175 @@
+{
+  "generated_at_utc": "2025-11-23T18:16:43Z",
+  "num_patients_per_cohort": 100,
+  "scenario_types": [
+    "nocturnal",
+    "standard",
+    "variable"
+  ],
+  "cohorts": [
+    "adult",
+    "adolescent",
+    "child"
+  ],
+  "metrics": {
+    "nocturnal": {
+      "adolescent": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 76.3,
+            "std": 14.0,
+            "text": "76.3 \u00b1 14.0"
+          },
+          "TBR_percent": {
+            "mean": 19.8,
+            "std": 10.4,
+            "text": "19.8 \u00b1 10.4"
+          },
+          "TAR_percent": {
+            "mean": 3.9,
+            "std": 5.7,
+            "text": "3.9 \u00b1 5.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 10.4,
+            "std": 7.9,
+            "text": "10.4 \u00b1 7.9"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 105.5,
+            "std": 8.6,
+            "text": "105.5 \u00b1 8.6"
+          },
+          "CV_percent": {
+            "mean": 36.8,
+            "std": 10.0,
+            "text": "36.8 \u00b1 10.0"
+          },
+          "LBGI": {
+            "mean": 7.06,
+            "std": 5.63,
+            "text": "7.06 \u00b1 5.63"
+          },
+          "HBGI": {
+            "mean": 1.2,
+            "std": 0.8,
+            "text": "1.20 \u00b1 0.80"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 76.0,
+            "std": 14.0,
+            "text": "76.0 \u00b1 14.0"
+          },
+          "TBR_percent": {
+            "mean": 20.1,
+            "std": 10.5,
+            "text": "20.1 \u00b1 10.5"
+          },
+          "TAR_percent": {
+            "mean": 3.9,
+            "std": 5.7,
+            "text": "3.9 \u00b1 5.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 10.6,
+            "std": 7.9,
+            "text": "10.6 \u00b1 7.9"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 105.3,
+            "std": 8.9,
+            "text": "105.3 \u00b1 8.9"
+          },
+          "CV_percent": {
+            "mean": 37.1,
+            "std": 10.0,
+            "text": "37.1 \u00b1 10.0"
+          },
+          "LBGI": {
+            "mean": 7.31,
+            "std": 5.95,
+            "text": "7.31 \u00b1 5.95"
+          },
+          "HBGI": {
+            "mean": 1.2,
+            "std": 0.8,
+            "text": "1.20 \u00b1 0.80"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 62.0,
+            "std": 12.7,
+            "text": "62.0 \u00b1 12.7"
+          },
+          "TBR_percent": {
+            "mean": 9.3,
+            "std": 7.0,
+            "text": "9.3 \u00b1 7.0"
+          },
+          "TAR_percent": {
+            "mean": 28.8,
+            "std": 12.1,
+            "text": "28.8 \u00b1 12.1"
+          },
+          "Time_below_54_percent": {
+            "mean": 4.5,
+            "std": 4.4,
+            "text": "4.5 \u00b1 4.4"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 145.3,
+            "std": 15.2,
+            "text": "145.3 \u00b1 15.2"
+          },
+          "CV_percent": {
+            "mean": 38.5,
+            "std": 10.2,
+            "text": "38.5 \u00b1 10.2"
+          },
+          "LBGI": {
+            "mean": 2.78,
+            "std": 2.43,
+            "text": "2.78 \u00b1 2.43"
+          },
+          "HBGI": {
+            "mean": 5.61,
+            "std": 2.27,
+            "text": "5.61 \u00b1 2.27"
+          }
+        }
+      },
+      "adult": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 77.9,
+            "std": 15.3,
+            "text": "77.9 \u00b1 15.3"
+          },
+          "TBR_percent": {
+            "mean": 19.9,
+            "std": 13.7,
+            "text": "19.9 \u00b1 13.7"
+          },
+          "TAR_percent": {
+            "mean": 2.2,
+            "std": 4.0,
+            "text": "2.2 \u00b1 4.0"
+          },
+          "Time_below_54_percent": {
+            "mean": 9.3,
+            "std": 10.0,
+            "text": "9.3 \u00b1 10.0"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 101.6,
+            "std": 9.2,
+            "text": "101.6 \u00b1 9.2"
+          },
+          "CV_percent": {
+            "mean": 34.9,
+            "std": 11.4,
+            "text": "34.9 \u00b1 11.4"
+          },
+          "LBGI": {
+            "mean": 7.13,
+            "std": 8.02,
+            "text": "7.13 \u00b1 8.02"
+          },
+          "HBGI": {
+            "mean": 0.86,
+            "std": 0.55,
+            "text": "0.86 \u00b1 0.55"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 78.0,
+            "std": 15.5,
+            "text": "78.0 \u00b1 15.5"
+          },
+          "TBR_percent": {
+            "mean": 19.8,
+            "std": 13.8,
+            "text": "19.8 \u00b1 13.8"
+          },
+          "TAR_percent": {
+            "mean": 2.2,
+            "std": 4.0,
+            "text": "2.2 \u00b1 4.0"
+          },
+          "Time_below_54_percent": {
+            "mean": 9.3,
+            "std": 9.9,
+            "text": "9.3 \u00b1 9.9"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 101.6,
+            "std": 9.2,
+            "text": "101.6 \u00b1 9.2"
+          },
+          "CV_percent": {
+            "mean": 34.9,
+            "std": 11.4,
+            "text": "34.9 \u00b1 11.4"
+          },
+          "LBGI": {
+            "mean": 7.18,
+            "std": 8.02,
+            "text": "7.18 \u00b1 8.02"
+          },
+          "HBGI": {
+            "mean": 0.86,
+            "std": 0.55,
+            "text": "0.86 \u00b1 0.55"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 70.1,
+            "std": 14.3,
+            "text": "70.1 \u00b1 14.3"
+          },
+          "TBR_percent": {
+            "mean": 9.2,
+            "std": 8.0,
+            "text": "9.2 \u00b1 8.0"
+          },
+          "TAR_percent": {
+            "mean": 20.8,
+            "std": 10.9,
+            "text": "20.8 \u00b1 10.9"
+          },
+          "Time_below_54_percent": {
+            "mean": 4.9,
+            "std": 5.5,
+            "text": "4.9 \u00b1 5.5"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 136.2,
+            "std": 11.6,
+            "text": "136.2 \u00b1 11.6"
+          },
+          "CV_percent": {
+            "mean": 35.6,
+            "std": 11.3,
+            "text": "35.6 \u00b1 11.3"
+          },
+          "LBGI": {
+            "mean": 3.0,
+            "std": 3.09,
+            "text": "3.00 \u00b1 3.09"
+          },
+          "HBGI": {
+            "mean": 4.03,
+            "std": 1.62,
+            "text": "4.03 \u00b1 1.62"
+          }
+        }
+      },
+      "child": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 64.6,
+            "std": 11.7,
+            "text": "64.6 \u00b1 11.7"
+          },
+          "TBR_percent": {
+            "mean": 26.8,
+            "std": 7.2,
+            "text": "26.8 \u00b1 7.2"
+          },
+          "TAR_percent": {
+            "mean": 8.6,
+            "std": 8.7,
+            "text": "8.6 \u00b1 8.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 19.0,
+            "std": 8.2,
+            "text": "19.0 \u00b1 8.2"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 107.9,
+            "std": 10.7,
+            "text": "107.9 \u00b1 10.7"
+          },
+          "CV_percent": {
+            "mean": 47.1,
+            "std": 8.9,
+            "text": "47.1 \u00b1 8.9"
+          },
+          "LBGI": {
+            "mean": 18.81,
+            "std": 15.9,
+            "text": "18.81 \u00b1 15.90"
+          },
+          "HBGI": {
+            "mean": 1.97,
+            "std": 1.24,
+            "text": "1.97 \u00b1 1.24"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 63.3,
+            "std": 12.5,
+            "text": "63.3 \u00b1 12.5"
+          },
+          "TBR_percent": {
+            "mean": 28.1,
+            "std": 8.5,
+            "text": "28.1 \u00b1 8.5"
+          },
+          "TAR_percent": {
+            "mean": 8.6,
+            "std": 8.3,
+            "text": "8.6 \u00b1 8.3"
+          },
+          "Time_below_54_percent": {
+            "mean": 19.8,
+            "std": 8.7,
+            "text": "19.8 \u00b1 8.7"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 105.4,
+            "std": 11.4,
+            "text": "105.4 \u00b1 11.4"
+          },
+          "CV_percent": {
+            "mean": 49.3,
+            "std": 10.4,
+            "text": "49.3 \u00b1 10.4"
+          },
+          "LBGI": {
+            "mean": 22.64,
+            "std": 18.94,
+            "text": "22.64 \u00b1 18.94"
+          },
+          "HBGI": {
+            "mean": 1.95,
+            "std": 1.29,
+            "text": "1.95 \u00b1 1.29"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 56.3,
+            "std": 9.5,
+            "text": "56.3 \u00b1 9.5"
+          },
+          "TBR_percent": {
+            "mean": 18.8,
+            "std": 7.9,
+            "text": "18.8 \u00b1 7.9"
+          },
+          "TAR_percent": {
+            "mean": 24.9,
+            "std": 6.4,
+            "text": "24.9 \u00b1 6.4"
+          },
+          "Time_below_54_percent": {
+            "mean": 10.7,
+            "std": 6.0,
+            "text": "10.7 \u00b1 6.0"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 134.3,
+            "std": 15.0,
+            "text": "134.3 \u00b1 15.0"
+          },
+          "CV_percent": {
+            "mean": 51.3,
+            "std": 8.0,
+            "text": "51.3 \u00b1 8.0"
+          },
+          "LBGI": {
+            "mean": 6.48,
+            "std": 4.97,
+            "text": "6.48 \u00b1 4.97"
+          },
+          "HBGI": {
+            "mean": 5.63,
+            "std": 2.21,
+            "text": "5.63 \u00b1 2.21"
+          }
+        }
+      }
+    },
+    "standard": {
+      "adolescent": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 76.3,
+            "std": 14.0,
+            "text": "76.3 \u00b1 14.0"
+          },
+          "TBR_percent": {
+            "mean": 19.8,
+            "std": 10.4,
+            "text": "19.8 \u00b1 10.4"
+          },
+          "TAR_percent": {
+            "mean": 3.9,
+            "std": 5.7,
+            "text": "3.9 \u00b1 5.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 10.4,
+            "std": 7.9,
+            "text": "10.4 \u00b1 7.9"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 105.5,
+            "std": 8.6,
+            "text": "105.5 \u00b1 8.6"
+          },
+          "CV_percent": {
+            "mean": 36.8,
+            "std": 10.0,
+            "text": "36.8 \u00b1 10.0"
+          },
+          "LBGI": {
+            "mean": 7.06,
+            "std": 5.63,
+            "text": "7.06 \u00b1 5.63"
+          },
+          "HBGI": {
+            "mean": 1.2,
+            "std": 0.8,
+            "text": "1.20 \u00b1 0.80"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 76.0,
+            "std": 14.0,
+            "text": "76.0 \u00b1 14.0"
+          },
+          "TBR_percent": {
+            "mean": 20.1,
+            "std": 10.5,
+            "text": "20.1 \u00b1 10.5"
+          },
+          "TAR_percent": {
+            "mean": 3.9,
+            "std": 5.7,
+            "text": "3.9 \u00b1 5.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 10.6,
+            "std": 7.9,
+            "text": "10.6 \u00b1 7.9"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 105.3,
+            "std": 8.9,
+            "text": "105.3 \u00b1 8.9"
+          },
+          "CV_percent": {
+            "mean": 37.1,
+            "std": 10.0,
+            "text": "37.1 \u00b1 10.0"
+          },
+          "LBGI": {
+            "mean": 7.31,
+            "std": 5.95,
+            "text": "7.31 \u00b1 5.95"
+          },
+          "HBGI": {
+            "mean": 1.2,
+            "std": 0.8,
+            "text": "1.20 \u00b1 0.80"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 62.0,
+            "std": 12.7,
+            "text": "62.0 \u00b1 12.7"
+          },
+          "TBR_percent": {
+            "mean": 9.3,
+            "std": 7.0,
+            "text": "9.3 \u00b1 7.0"
+          },
+          "TAR_percent": {
+            "mean": 28.8,
+            "std": 12.1,
+            "text": "28.8 \u00b1 12.1"
+          },
+          "Time_below_54_percent": {
+            "mean": 4.5,
+            "std": 4.4,
+            "text": "4.5 \u00b1 4.4"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 145.3,
+            "std": 15.2,
+            "text": "145.3 \u00b1 15.2"
+          },
+          "CV_percent": {
+            "mean": 38.5,
+            "std": 10.2,
+            "text": "38.5 \u00b1 10.2"
+          },
+          "LBGI": {
+            "mean": 2.78,
+            "std": 2.43,
+            "text": "2.78 \u00b1 2.43"
+          },
+          "HBGI": {
+            "mean": 5.61,
+            "std": 2.27,
+            "text": "5.61 \u00b1 2.27"
+          }
+        }
+      },
+      "adult": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 77.9,
+            "std": 15.3,
+            "text": "77.9 \u00b1 15.3"
+          },
+          "TBR_percent": {
+            "mean": 19.9,
+            "std": 13.7,
+            "text": "19.9 \u00b1 13.7"
+          },
+          "TAR_percent": {
+            "mean": 2.2,
+            "std": 4.0,
+            "text": "2.2 \u00b1 4.0"
+          },
+          "Time_below_54_percent": {
+            "mean": 9.3,
+            "std": 10.0,
+            "text": "9.3 \u00b1 10.0"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 101.6,
+            "std": 9.2,
+            "text": "101.6 \u00b1 9.2"
+          },
+          "CV_percent": {
+            "mean": 34.9,
+            "std": 11.4,
+            "text": "34.9 \u00b1 11.4"
+          },
+          "LBGI": {
+            "mean": 7.14,
+            "std": 8.02,
+            "text": "7.14 \u00b1 8.02"
+          },
+          "HBGI": {
+            "mean": 0.85,
+            "std": 0.55,
+            "text": "0.85 \u00b1 0.55"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 78.0,
+            "std": 15.5,
+            "text": "78.0 \u00b1 15.5"
+          },
+          "TBR_percent": {
+            "mean": 19.8,
+            "std": 13.8,
+            "text": "19.8 \u00b1 13.8"
+          },
+          "TAR_percent": {
+            "mean": 2.2,
+            "std": 4.0,
+            "text": "2.2 \u00b1 4.0"
+          },
+          "Time_below_54_percent": {
+            "mean": 9.3,
+            "std": 9.9,
+            "text": "9.3 \u00b1 9.9"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 101.6,
+            "std": 9.2,
+            "text": "101.6 \u00b1 9.2"
+          },
+          "CV_percent": {
+            "mean": 34.9,
+            "std": 11.4,
+            "text": "34.9 \u00b1 11.4"
+          },
+          "LBGI": {
+            "mean": 7.18,
+            "std": 8.02,
+            "text": "7.18 \u00b1 8.02"
+          },
+          "HBGI": {
+            "mean": 0.86,
+            "std": 0.55,
+            "text": "0.86 \u00b1 0.55"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 70.1,
+            "std": 14.3,
+            "text": "70.1 \u00b1 14.3"
+          },
+          "TBR_percent": {
+            "mean": 9.2,
+            "std": 8.0,
+            "text": "9.2 \u00b1 8.0"
+          },
+          "TAR_percent": {
+            "mean": 20.8,
+            "std": 10.9,
+            "text": "20.8 \u00b1 10.9"
+          },
+          "Time_below_54_percent": {
+            "mean": 4.9,
+            "std": 5.5,
+            "text": "4.9 \u00b1 5.5"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 136.2,
+            "std": 11.6,
+            "text": "136.2 \u00b1 11.6"
+          },
+          "CV_percent": {
+            "mean": 35.6,
+            "std": 11.3,
+            "text": "35.6 \u00b1 11.3"
+          },
+          "LBGI": {
+            "mean": 3.0,
+            "std": 3.09,
+            "text": "3.00 \u00b1 3.09"
+          },
+          "HBGI": {
+            "mean": 4.03,
+            "std": 1.62,
+            "text": "4.03 \u00b1 1.62"
+          }
+        }
+      },
+      "child": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 64.6,
+            "std": 11.7,
+            "text": "64.6 \u00b1 11.7"
+          },
+          "TBR_percent": {
+            "mean": 26.8,
+            "std": 7.2,
+            "text": "26.8 \u00b1 7.2"
+          },
+          "TAR_percent": {
+            "mean": 8.6,
+            "std": 8.7,
+            "text": "8.6 \u00b1 8.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 19.0,
+            "std": 8.2,
+            "text": "19.0 \u00b1 8.2"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 107.9,
+            "std": 10.7,
+            "text": "107.9 \u00b1 10.7"
+          },
+          "CV_percent": {
+            "mean": 47.1,
+            "std": 8.9,
+            "text": "47.1 \u00b1 8.9"
+          },
+          "LBGI": {
+            "mean": 18.81,
+            "std": 15.9,
+            "text": "18.81 \u00b1 15.90"
+          },
+          "HBGI": {
+            "mean": 1.97,
+            "std": 1.24,
+            "text": "1.97 \u00b1 1.24"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 63.3,
+            "std": 12.5,
+            "text": "63.3 \u00b1 12.5"
+          },
+          "TBR_percent": {
+            "mean": 28.1,
+            "std": 8.5,
+            "text": "28.1 \u00b1 8.5"
+          },
+          "TAR_percent": {
+            "mean": 8.6,
+            "std": 8.3,
+            "text": "8.6 \u00b1 8.3"
+          },
+          "Time_below_54_percent": {
+            "mean": 19.8,
+            "std": 8.7,
+            "text": "19.8 \u00b1 8.7"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 105.4,
+            "std": 11.4,
+            "text": "105.4 \u00b1 11.4"
+          },
+          "CV_percent": {
+            "mean": 49.3,
+            "std": 10.4,
+            "text": "49.3 \u00b1 10.4"
+          },
+          "LBGI": {
+            "mean": 22.64,
+            "std": 18.94,
+            "text": "22.64 \u00b1 18.94"
+          },
+          "HBGI": {
+            "mean": 1.95,
+            "std": 1.29,
+            "text": "1.95 \u00b1 1.29"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 56.3,
+            "std": 9.5,
+            "text": "56.3 \u00b1 9.5"
+          },
+          "TBR_percent": {
+            "mean": 18.8,
+            "std": 7.9,
+            "text": "18.8 \u00b1 7.9"
+          },
+          "TAR_percent": {
+            "mean": 24.9,
+            "std": 6.4,
+            "text": "24.9 \u00b1 6.4"
+          },
+          "Time_below_54_percent": {
+            "mean": 10.7,
+            "std": 6.0,
+            "text": "10.7 \u00b1 6.0"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 134.3,
+            "std": 15.0,
+            "text": "134.3 \u00b1 15.0"
+          },
+          "CV_percent": {
+            "mean": 51.3,
+            "std": 8.0,
+            "text": "51.3 \u00b1 8.0"
+          },
+          "LBGI": {
+            "mean": 6.48,
+            "std": 4.97,
+            "text": "6.48 \u00b1 4.97"
+          },
+          "HBGI": {
+            "mean": 5.63,
+            "std": 2.21,
+            "text": "5.63 \u00b1 2.21"
+          }
+        }
+      }
+    },
+    "variable": {
+      "adolescent": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 68.0,
+            "std": 14.9,
+            "text": "68.0 \u00b1 14.9"
+          },
+          "TBR_percent": {
+            "mean": 23.9,
+            "std": 11.5,
+            "text": "23.9 \u00b1 11.5"
+          },
+          "TAR_percent": {
+            "mean": 8.1,
+            "std": 8.5,
+            "text": "8.1 \u00b1 8.5"
+          },
+          "Time_below_54_percent": {
+            "mean": 13.6,
+            "std": 9.1,
+            "text": "13.6 \u00b1 9.1"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 107.2,
+            "std": 11.5,
+            "text": "107.2 \u00b1 11.5"
+          },
+          "CV_percent": {
+            "mean": 42.0,
+            "std": 9.8,
+            "text": "42.0 \u00b1 9.8"
+          },
+          "LBGI": {
+            "mean": 8.92,
+            "std": 6.15,
+            "text": "8.92 \u00b1 6.15"
+          },
+          "HBGI": {
+            "mean": 1.75,
+            "std": 1.18,
+            "text": "1.75 \u00b1 1.18"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 68.1,
+            "std": 15.3,
+            "text": "68.1 \u00b1 15.3"
+          },
+          "TBR_percent": {
+            "mean": 23.8,
+            "std": 11.7,
+            "text": "23.8 \u00b1 11.7"
+          },
+          "TAR_percent": {
+            "mean": 8.2,
+            "std": 8.6,
+            "text": "8.2 \u00b1 8.6"
+          },
+          "Time_below_54_percent": {
+            "mean": 13.6,
+            "std": 9.2,
+            "text": "13.6 \u00b1 9.2"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 107.3,
+            "std": 11.7,
+            "text": "107.3 \u00b1 11.7"
+          },
+          "CV_percent": {
+            "mean": 42.0,
+            "std": 10.1,
+            "text": "42.0 \u00b1 10.1"
+          },
+          "LBGI": {
+            "mean": 8.87,
+            "std": 6.25,
+            "text": "8.87 \u00b1 6.25"
+          },
+          "HBGI": {
+            "mean": 1.77,
+            "std": 1.23,
+            "text": "1.77 \u00b1 1.23"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 60.9,
+            "std": 14.4,
+            "text": "60.9 \u00b1 14.4"
+          },
+          "TBR_percent": {
+            "mean": 9.8,
+            "std": 8.5,
+            "text": "9.8 \u00b1 8.5"
+          },
+          "TAR_percent": {
+            "mean": 29.4,
+            "std": 13.1,
+            "text": "29.4 \u00b1 13.1"
+          },
+          "Time_below_54_percent": {
+            "mean": 5.1,
+            "std": 5.8,
+            "text": "5.1 \u00b1 5.8"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 146.8,
+            "std": 17.5,
+            "text": "146.8 \u00b1 17.5"
+          },
+          "CV_percent": {
+            "mean": 40.2,
+            "std": 12.8,
+            "text": "40.2 \u00b1 12.8"
+          },
+          "LBGI": {
+            "mean": 4.03,
+            "std": 6.64,
+            "text": "4.03 \u00b1 6.64"
+          },
+          "HBGI": {
+            "mean": 6.11,
+            "std": 2.78,
+            "text": "6.11 \u00b1 2.78"
+          }
+        }
+      },
+      "adult": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 72.3,
+            "std": 15.7,
+            "text": "72.3 \u00b1 15.7"
+          },
+          "TBR_percent": {
+            "mean": 23.6,
+            "std": 13.6,
+            "text": "23.6 \u00b1 13.6"
+          },
+          "TAR_percent": {
+            "mean": 4.2,
+            "std": 6.5,
+            "text": "4.2 \u00b1 6.5"
+          },
+          "Time_below_54_percent": {
+            "mean": 12.2,
+            "std": 10.1,
+            "text": "12.2 \u00b1 10.1"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 101.6,
+            "std": 11.0,
+            "text": "101.6 \u00b1 11.0"
+          },
+          "CV_percent": {
+            "mean": 38.5,
+            "std": 10.9,
+            "text": "38.5 \u00b1 10.9"
+          },
+          "LBGI": {
+            "mean": 8.44,
+            "std": 6.87,
+            "text": "8.44 \u00b1 6.87"
+          },
+          "HBGI": {
+            "mean": 1.13,
+            "std": 0.91,
+            "text": "1.13 \u00b1 0.91"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 72.3,
+            "std": 15.9,
+            "text": "72.3 \u00b1 15.9"
+          },
+          "TBR_percent": {
+            "mean": 23.6,
+            "std": 13.8,
+            "text": "23.6 \u00b1 13.8"
+          },
+          "TAR_percent": {
+            "mean": 4.2,
+            "std": 6.4,
+            "text": "4.2 \u00b1 6.4"
+          },
+          "Time_below_54_percent": {
+            "mean": 12.4,
+            "std": 10.3,
+            "text": "12.4 \u00b1 10.3"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 101.7,
+            "std": 11.0,
+            "text": "101.7 \u00b1 11.0"
+          },
+          "CV_percent": {
+            "mean": 38.6,
+            "std": 11.0,
+            "text": "38.6 \u00b1 11.0"
+          },
+          "LBGI": {
+            "mean": 8.48,
+            "std": 6.89,
+            "text": "8.48 \u00b1 6.89"
+          },
+          "HBGI": {
+            "mean": 1.13,
+            "std": 0.9,
+            "text": "1.13 \u00b1 0.90"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 70.9,
+            "std": 17.8,
+            "text": "70.9 \u00b1 17.8"
+          },
+          "TBR_percent": {
+            "mean": 9.0,
+            "std": 9.2,
+            "text": "9.0 \u00b1 9.2"
+          },
+          "TAR_percent": {
+            "mean": 20.1,
+            "std": 13.7,
+            "text": "20.1 \u00b1 13.7"
+          },
+          "Time_below_54_percent": {
+            "mean": 4.3,
+            "std": 6.1,
+            "text": "4.3 \u00b1 6.1"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 137.9,
+            "std": 15.4,
+            "text": "137.9 \u00b1 15.4"
+          },
+          "CV_percent": {
+            "mean": 35.9,
+            "std": 13.9,
+            "text": "35.9 \u00b1 13.9"
+          },
+          "LBGI": {
+            "mean": 3.61,
+            "std": 6.23,
+            "text": "3.61 \u00b1 6.23"
+          },
+          "HBGI": {
+            "mean": 4.43,
+            "std": 2.59,
+            "text": "4.43 \u00b1 2.59"
+          }
+        }
+      },
+      "child": {
+        "Stochastic Mpc": {
+          "TIR_percent": {
+            "mean": 57.1,
+            "std": 12.4,
+            "text": "57.1 \u00b1 12.4"
+          },
+          "TBR_percent": {
+            "mean": 28.6,
+            "std": 8.4,
+            "text": "28.6 \u00b1 8.4"
+          },
+          "TAR_percent": {
+            "mean": 14.4,
+            "std": 10.3,
+            "text": "14.4 \u00b1 10.3"
+          },
+          "Time_below_54_percent": {
+            "mean": 20.5,
+            "std": 8.1,
+            "text": "20.5 \u00b1 8.1"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 112.0,
+            "std": 16.6,
+            "text": "112.0 \u00b1 16.6"
+          },
+          "CV_percent": {
+            "mean": 53.0,
+            "std": 9.5,
+            "text": "53.0 \u00b1 9.5"
+          },
+          "LBGI": {
+            "mean": 19.52,
+            "std": 13.2,
+            "text": "19.52 \u00b1 13.20"
+          },
+          "HBGI": {
+            "mean": 3.12,
+            "std": 2.24,
+            "text": "3.12 \u00b1 2.24"
+          }
+        },
+        "Deterministic Mpc": {
+          "TIR_percent": {
+            "mean": 54.5,
+            "std": 16.2,
+            "text": "54.5 \u00b1 16.2"
+          },
+          "TBR_percent": {
+            "mean": 31.3,
+            "std": 13.3,
+            "text": "31.3 \u00b1 13.3"
+          },
+          "TAR_percent": {
+            "mean": 14.2,
+            "std": 11.9,
+            "text": "14.2 \u00b1 11.9"
+          },
+          "Time_below_54_percent": {
+            "mean": 22.4,
+            "std": 11.8,
+            "text": "22.4 \u00b1 11.8"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 111.4,
+            "std": 30.5,
+            "text": "111.4 \u00b1 30.5"
+          },
+          "CV_percent": {
+            "mean": 56.6,
+            "std": 14.7,
+            "text": "56.6 \u00b1 14.7"
+          },
+          "LBGI": {
+            "mean": 23.99,
+            "std": 20.33,
+            "text": "23.99 \u00b1 20.33"
+          },
+          "HBGI": {
+            "mean": 3.68,
+            "std": 5.12,
+            "text": "3.68 \u00b1 5.12"
+          }
+        },
+        "Pid": {
+          "TIR_percent": {
+            "mean": 52.9,
+            "std": 13.3,
+            "text": "52.9 \u00b1 13.3"
+          },
+          "TBR_percent": {
+            "mean": 21.2,
+            "std": 10.0,
+            "text": "21.2 \u00b1 10.0"
+          },
+          "TAR_percent": {
+            "mean": 25.9,
+            "std": 8.9,
+            "text": "25.9 \u00b1 8.9"
+          },
+          "Time_below_54_percent": {
+            "mean": 12.4,
+            "std": 8.3,
+            "text": "12.4 \u00b1 8.3"
+          },
+          "Mean_glucose_mg_dL": {
+            "mean": 136.7,
+            "std": 18.0,
+            "text": "136.7 \u00b1 18.0"
+          },
+          "CV_percent": {
+            "mean": 55.5,
+            "std": 13.4,
+            "text": "55.5 \u00b1 13.4"
+          },
+          "LBGI": {
+            "mean": 9.41,
+            "std": 7.84,
+            "text": "9.41 \u00b1 7.84"
+          },
+          "HBGI": {
+            "mean": 6.55,
+            "std": 3.26,
+            "text": "6.55 \u00b1 3.26"
+          }
+        }
+      }
+    }
+  },
+  "notes": "All values computed from synthetic UVA/Padova S2017 cohorts via run_experiments.py, controller order: Stochastic MPC, Deterministic MPC, PID."
+}
